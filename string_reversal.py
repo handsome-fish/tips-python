@@ -1,4 +1,7 @@
 # 字符串翻转
+# 首先最简单的方法就是利用切片的操作，来实现翻转，
+# 其次可以利用reduce函数来实现翻转，在python3中，reduce函数需要从functools中进行导入
+
 
 # method1
 def method1(str):
