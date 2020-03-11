@@ -1,8 +1,18 @@
 # 判断字符串是否是回文
+# 利用字符串的翻转来判断字符是否是回文字符串
+# string_reversal为字符串翻转
+
+import string_reversal as sr
+
+str1 = 'abcba'
+str2 = 'andsf'
+
+def fun(str):
+    if str == sr.method1(str):
+        print(str + "是回文串")
+    else:
+        print(str + '不是回文串')
 
 
-
-if __name__ == '__main__':
-    str = 'i love python.'
-    print('method1: ' + method1(str))
-    print('method2: ' + method2(str))
+fun(str1)
+fun(str2)
